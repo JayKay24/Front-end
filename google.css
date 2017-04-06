@@ -45,8 +45,32 @@ fieldset {
 	color: white;
 }
 
-#top{
+#top.{
 	list-style-type: none;
 	margin: 10px;
 	float: right;
+}
+
+#top_list, #left_list{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#google_icon{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
