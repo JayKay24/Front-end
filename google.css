@@ -19,3 +19,9 @@ fieldset {
 	margin-right: 10.5em;
 	margin-right: 1em;
 }
+#google_text {
+	width: 30em;
+	height: 2em;
+	border: 1px solid #666;
+	font-family: Georgia, "Times New Roman", Times, sans-serif;
+}
