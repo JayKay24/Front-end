@@ -17,8 +17,18 @@ fieldset {
 
 }
 
+#google_form {
+	padding: 10% 0;
+}
+
+#submits{
+	margin: auto;
+	width: 20%;
+	padding: 10px;
+}
+
 #google_text {
-	width: 30em;
+	width: 40em;
 	height: 2em;
 	border: 1px solid #666;
 	font-family: Georgia, "Times New Roman", Times, sans-serif;
@@ -38,8 +48,10 @@ fieldset {
 }
 
 #signin{
-	background-color: blue;
+	background-color: #008CBA;
 	color: white;
+	border-radius: 4px;
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, .5)
 }
 
 #top.{
@@ -59,12 +71,6 @@ fieldset {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-}
-
-#submits{
-	margin: auto;
-	width: 50%;
-	padding: 10px;
 }
 
 #Search{
@@ -104,4 +110,9 @@ footer {
 	position: absolute;
 	bottom: 0;
 	width: 99%;
+}
+
+a {
+	font-family: sans-serif;
+	color: black;
 }
