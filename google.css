@@ -29,13 +29,13 @@ fieldset {
 }
 
 #left{
-	list-style: none;
+	list-style-type: none;
 	margin-right: 10px;
 	float: left;
 }
 
 #right{
-	list-style: none;
+	list-style-type: none;
 	margin: 10px;
 	float: right;
 }
@@ -46,7 +46,7 @@ fieldset {
 }
 
 #top{
-	list-style: none;
+	list-style-type: none;
 	margin: 10px;
 	float: right;
 }
