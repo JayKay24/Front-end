@@ -3,6 +3,7 @@ fieldset {
 	padding: 0;
 	border: none;
 }
+
 #Search, #Lucky {
 	display: block;
 	width: 10em;
@@ -15,12 +16,26 @@ fieldset {
 	box-shadow: 2px 2px 3px rgba(0, 0, 0, .5)
 
 }
+
 #Search {
 	margin-right: 1.5em;
 }
+
 #google_text {
 	width: 30em;
 	height: 2em;
 	border: 1px solid #666;
 	font-family: Georgia, "Times New Roman", Times, sans-serif;
+}
+
+#left{
+	list-style: none;
+	margin-right: 10px;
+	float: left;
+}
+
+#right{
+	list-style: none;
+	margin: 10px;
+	float: right;
 }
